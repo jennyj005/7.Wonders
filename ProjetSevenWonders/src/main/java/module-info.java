@@ -13,8 +13,8 @@ module com.example.projetsevenwonders {
 
     opens com to javafx.fxml;
     exports com;
-    exports com.controller;
-    opens com.controller to javafx.fxml;
+    exports com.example.controller;
+    opens com.example.controller to javafx.fxml;
     exports com.models;
     opens com.models to javafx.fxml;
 }
